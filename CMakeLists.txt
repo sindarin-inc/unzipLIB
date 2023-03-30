@@ -6,4 +6,10 @@ idf_component_register(
      INCLUDE_DIRS "src"
 )
 
+set_source_files_properties(
+     src/inflate.c src/infback.c
+    PROPERTIES COMPILE_FLAGS
+    -Wno-implicit-fallthrough
+)
+
 project(unzipLIB)
