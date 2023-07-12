@@ -1,0 +1,14 @@
+{
+    "name": "unzipLIB",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/sindarin-inc/unzipLIB/",
+    "frameworks": "*",
+    "platforms": "*",
+    "build": {
+        "libArchive": true
+    },
+    "dependencies": {
+        "jkirsons/zlib-PIO": "https://github.com/jkirsons/zlib-PIO.git#b9aaf78"
+    }
+}
